@@ -1,27 +1,23 @@
-# MyApp
+# E-Commerce Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+by Martín Sámano - 31487
 
-## Development server
+## Dependencies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Node
 
-## Code scaffolding
+Express: npm install express --save
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Morgan: npm install morgan
 
-## Build
+Nodemon: npm install -g nodemon
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Cors: npm install cors
 
-## Running unit tests
+Angular: npm install -g @angular/cli
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+I installed fullPage for Angular, but I couldnt use it because it asked for a licence I couldn't get. Pretty sure I deleted it, but you could try installing it if it turns out I didn't.
 
-## Running end-to-end tests
+## Notes
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The api is in the Api folder, as the name suggests. The Chronicle folder is a fullPage.js version of the home page, because the Angular version of the library required a licence so I couldn't implement it in that version, so refer to that one to see how the page would function if I had been able to acquire a licence.
