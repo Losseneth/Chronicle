@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+
+.planFormContainer {
+    padding-top: 15%;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.stepHeader-container {
+    padding: 0 16px;
+}
+
+.stepHeader {
+    display: inline-block;
+}
+
+.stepTitle {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+h1 {
+    font-size: 27px;
+    margin: 0 0 .4em;
+}
+
+.stepIndicator {
+    text-align: left;
+    display: block;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+b {
+    font-weight: 600;
+}
+
+.simpleContainer {
+    padding-bottom: 95px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 24px;
+}
+
+.simpleContainer .submitBtnContainer {
+    margin-top: 24px;
+}
+
+.narrowCenterContainer {
+    padding-left: 16px;
+    padding-right: 16px;
+    --layout-container-side-padding: 32px;
+    padding: 20px 32px 60px;
+    padding: 20px var(--layout-container-side-padding) 60px;
+}
+
+.centerContainer {
+    overflow: hidden;
+    display: none;
+    margin: 0 auto 15px;
+    padding: 20px 3% 60px;
+    max-width: 978px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.centerContainer.firstLoad {
+    display: block;
+}
+
+.narrowCenterContainer .submitBtnContainer {
+    padding: 0 16px;
+}
+
+div.basicLayout .nf-btn-primary, div.basicLayout .nf-btn-secondary {
+    min-height: 48px;
+}
+
+.nf-btn.nf-btn-oversize {
+    font-size: 19px;
+    padding: .75rem 25.33333333px;
+    min-width: 110px;
+    min-height: 60px;
+    width: 100%;
+    line-height: 19px;
+}
+
+.nf-btn-solid.nf-btn-primary, .nf-btn-twotone.nf-btn-primary {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.nf-btn {
+    position: relative;
+    padding: .75rem 1.33333333rem;
+    min-width: 74px;
+    min-height: 48px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    min-height: 48px;
+}
+
+.form__container {
+    padding-top: 5%;
+    max-width: 450px;
+    margin: 0px auto;
+    padding-bottom: 130px;
+}
+
+.label__tag {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.input__field {
+    appearance: none;
+    background-image: none;
+    border: 0px none;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    padding: 14px;
+    background-color: var(--background-base,#ffffff);
+    box-shadow: inset 0 0 0 1px var(--essential-subdued,#868686);
+    color: var(--text-base,#000000);
+}
+
+.data__field {
+    box-sizing: border-box;
+    padding-bottom: 24px;
+}
+
+.FormHelpText {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-top: 8px;
+}
+
+.small__fields {
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+.Month__MonthWrapper {
+    width: 45%;
+}
+
+.month__select {
+    position: relative;
+    width: 100%;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+.month__field {
+    background-image: none;
+    border: 0px none;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    border-radius: 4px;
+    padding: 14px 44px 14px 14px;
+    background-color: #fff;
+    box-shadow: inset 0 0 0 1px var(--essential-subdued,#868686);
+    color: #868686;
+    font-family: inherit;
+}
+
+.arrow {
+    color: #868686;
+    pointer-events: none;
+    position: absolute;
+    right: 14px;
+    stroke-width: 0.8pt;
+}
+
+.Day__DayWrapper {
+    width: 20%;
+}
+
+.Year__YearWrapper {
+    width: 25%;
+}
+
+.radio__buttons {
+    box-sizing: border-box;
+    padding: 0px 0px 24px;
+    min-width: 0px;
+    margin: 0px;
+    border: 0px none;
+}
+
+.gender__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gender__item {
+    box-sizing: border-box;
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    position: relative;
+    min-height: 32px;
+}
+
+.input__select {
+    border: 0px none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 1px;
+}
+
+input:not(:checked) + label .radio__span {
+    background-color: var(--background-base,#ffffff);
+    border: 1px solid var(--essential-subdued,#868686);
+}
+
+input:checked + label .radio__span {
+    background: #3CDFD4;
+}
+
+input:checked + label .radio__span::before {
+    background-color: var(--background-base,#ffffff);
+    border-radius: 50%;
+    content: "";
+    height: 0.5em;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.5em;
+}
+
+.radio__span {
+    box-sizing: border-box;
+    background: transparent none repeat scroll 0% 0%;
+        background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    user-select: none;
+    width: 16px;
+    flex-shrink: 0;
+    align-self: flex-start;
+    top: 4px;
+    position: relative;
+}
+
+.radio__span::after {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    transition: border-color 200ms ease-in 0s;
+    box-sizing: border-box;
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    top: -6px;
+    left: -6px;
+    background: transparent none repeat scroll 0% 0%;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    content: "";
+}
+
+.gender__box {
+    color: #000;
+    padding-left: 12px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: inherit;
+}
+
+.EmailForm__Center {
+    text-align: center;
+}
+
+.EmailForm__Center a {
+    color: #3CDFD4;
+    box-sizing: border-box;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.Type__TypeElement {
+    box-sizing: border-box;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 16px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html data-triggered="true" lang="en">
+    <body>
+        <header>
+            <a class="name" routerLink="">Chronicle</a>
+
+            <div class="wrap"></div>
+        </header>
+
+        <div>
+            <div>
+                <div>
+                    <div class="simpleContainer" data-transitioned-child="true">
+                        <div class="centerContainer firstLoad narrowCenterContainer">
+                            <div class="planFormContainer" data-uia="form-plan-selection">
+                                <div class="stepHeader-container" data-uia="header">
+                                    <div class="stepHeader" data-a11y-focus="true">
+                                        <h1 class="stepTitle" data-uia="stepTitle">Tell Us About You</h1>
+                                        <span id="" class="stepIndicator" data-uia="">Step <b>2</b> of <b>4</b></span>
+                                    </div>
+                                </div>
+        
+                                <div class="form__container">
+                                    <form>
+                                        <div class="data__field">
+                                            <div class="label__tag">
+                                                <label for="displayname">What should we call you?</label>
+                                            </div>
+                                            
+                                            <input type="text" id="displayname" name="displayname" placeholder="Enter a name." required="" value="" class="input__field">
+                                            
+                                            <div class="FormHelpText DisplayName__StyledFormHelpText">This information will be public.</div>
+                                        </div>
+                                        
+                                        <div class="data__field">
+                                            <div class="label__tag">
+                                                <label>What's your date of birth?</label>
+                                            </div>
+                                            
+                                            <div class="small__fields">
+                                                <div data-testid="month" class="Month__MonthWrapper">
+                                                    <div class="data__field">
+                                                        <div class="label__tag">
+                                                            <label for="month">Month</label>
+                                                        </div>
+                                                        
+                                                        <div class="month__select">
+                                                            <select id="month" name="month" required="" class="month__field">
+                                                                <option selected="" disabled="" value="">Month</option>
+                                                                
+                                                                <option value="01">January</option>
+                                                                
+                                                                <option value="02">February</option>
+                                                                
+                                                                <option value="03">March</option>
+                                                                
+                                                                <option value="04">April</option>
+                                                                
+                                                                <option value="05">May</option>
+                                                                
+                                                                <option value="06">June</option>
+                                                                
+                                                                <option value="07">July</option>
+                                                                
+                                                                <option value="08">August</option>
+                                                                
+                                                                <option value="09">September</option>
+                                                                
+                                                                <option value="10">October</option>
+                                                                
+                                                                <option value="11">November</option>
+                                                                
+                                                                <option value="12">December</option>
+                                                            </select>
+                                                            
+                                                            <svg role="img" focusable="false" height="16" width="16" viewBox="0 0 24 24" class="arrow">
+                                                                <polyline points="20 8 12 17 4 8" fill="none" stroke="#181818"></polyline>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div data-testid="day" class="Day__DayWrapper">
+                                                    <div class="data__field">
+                                                        <div class="label__tag">
+                                                            <label for="day">Day</label>
+                                                        </div>
+            
+                                                        <input type="text" aria-invalid="false" id="day" inputmode="numeric" maxlength="2" name="day" placeholder="DD" required="" value="" class="input__field">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div data-testid="year" class="Year__YearWrapper">
+                                                    <div class="data__field">
+                                                        <div class="label__tag">
+                                                            <label for="year">Year</label>
+                                                        </div>
+                                                        
+                                                        <input type="text" aria-invalid="false" id="year" inputmode="numeric" maxlength="4" name="year" placeholder="YYYY" required="" value="" class="input__field">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <fieldset role="radiogroup" class="radio__buttons">
+                                            <legend class="label__tag">What's your gender?</legend>
+                                            
+                                            <div class="gender__wrapper">
+                                                <div class="gender__item">
+                                                    <input type="radio" id="gender_option_male" name="gender" required="" value="male" class="input__select">
+                                                    
+                                                    <label for="gender_option_male">
+                                                        <span class="radio__span"></span>
+                                                        
+                                                        <span class="gender__box">Male</span>
+                                                    </label>
+                                                </div>
+                                                
+                                                <div class="gender__item">
+                                                    <input type="radio" id="gender_option_female" name="gender" required="" value="female" class="input__select">
+                                                    
+                                                    <label for="gender_option_female">
+                                                        <span class="radio__span"></span>
+                                                        
+                                                        <span class="gender__box">Female</span>
+                                                    </label>
+                                                </div>
+                                                
+                                                <div class="gender__item">
+                                                    <input type="radio" id="gender_option_nonbinary" name="gender" required="" value="neutral" class="input__select">
+                                                    
+                                                    <label for="gender_option_nonbinary">
+                                                        <span class="radio__span"></span>
+                                                        
+                                                        <span class="gender__box">Non-binary</span>
+                                                    </label>
+                                                </div>
+    
+                                                <div class="gender__item">
+                                                    <input type="radio" id="gender_option_other" name="gender" required="" value="neutral" aria-invalid="false" class="input__select">
+                                                    
+                                                    <label for="gender_option_other">
+                                                        <span class="radio__span"></span>
+                                                        
+                                                        <span class="gender__box">Other</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                        
+                                        <div class="EmailForm__Center">
+                                            <div class="submitBtnContainer firstLoad">
+                                                <button type="submit" class="btn nf-btn nf-btn-primary nf-btn-solid nf-btn-oversize" routerLink="/plans">Continue</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

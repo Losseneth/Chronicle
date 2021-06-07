@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "type":"Basic",
+        "price":"$10 USD",
+        "quota":"5 books",
+        "audio":"Yes",
+        "offline":""
+    },
+    {
+        "id":"2",
+        "type":"Premium",
+        "price":"$25 USD",
+        "quota":"Unlimited",
+        "audio":"Yes",
+        "offline":"Yes"
+    }
+]
